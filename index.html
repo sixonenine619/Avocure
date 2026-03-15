@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avocure</title>
+<meta name="description" content="Natural herbal medicine that helps relieve stomach ulcers and improve digestion. Order online today.">
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* Background */
+body { 
+    font-family: Arial, sans-serif; 
+    margin:0; 
+    padding:0; 
+    line-height:1.6; 
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* soft gradient */
+}
+body::before {
+    content: "";
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    background-image: url('images/leaf-pattern.png'); /* subtle herbal pattern */
+    opacity: 0.05; 
+    pointer-events: none;
+}
+
+/* Header */
+header { background:#4CAF50; color:white; padding:20px 10px; text-align:center; }
+nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
+
+/* Hero Section */
+.hero { text-align:center; padding:50px 10px; background: rgba(232, 245, 233, 0.8); border-radius: 15px; margin: 20px; }
+.hero img { max-width:300px; margin-bottom:20px; border-radius:10px; }
+.btn { display:inline-block; background:#4CAF50; color:white; padding:12px 25px; text-decoration:none; border-radius:5px; font-weight:bold; margin-top:15px; }
+
+/* Info Section */
+.info, .products, .contact { padding:40px 20px; max-width:1000px; margin:auto; }
+.info ul { list-style-type: disc; margin-left:20px; }
+
+/* Products Grid */
+.products { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:20px; }
+.product-item { background:#fff; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1); padding:15px; text-align:center; transition: transform 0.3s; }
+.product-item:hover { transform: translateY(-5px); }
+.product-item img { width:150px; border-radius:10px; margin-bottom:10px; }
+.product-item h3 { margin:10px 0; }
+.product-item p { font-weight:bold; color:#333; }
+
+/* WhatsApp Button */
+.whatsapp { display:inline-block; background:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; margin-top:10px; transition: background 0.3s; }
+.whatsapp:hover { background:#1DA851; }
+
+/* Footer */
+footer { text-align:center; padding:20px 10px; background:#f1f1f1; font-size:14px; margin-top:30px; }
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Acovure</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="order.html">Order</a>
+</nav>
+</header>
+
+<section class="hero">
+<img src="images/medicine.jpg" alt="Ulcer Medicine">
+<h2>Natural Relief For Stomach Ulcers</h2>
+<p>This herbal remedy helps support stomach healing and digestion.</p>
+<a class="btn" href="order.html">Order Now</a>
+</section>
+
+<section class="info">
+<h2>Benefits</h2>
+<ul>
+<li>Helps relieve stomach pain</li>
+<li>Supports stomach healing</li>
+<li>Natural herbal ingredients</li>
+<li>Improves digestion</li>
+</ul>
+</section>
+
+<section class="products">
+<h2>Our Products</h2>
+
+<div class="product-item">
+<img src="images/medicine.jpg" alt="Ulcer Healing Medicine">
+<h3>Ulcer Healing Herbal Medicine</h3>
+<p>Price: R60 per bottle</p>
+<a class="whatsapp" href="https://wa.me/27834724696?text=Hi,%20I%20want%20to%20order%201%20Ulcer%20Healing%20Medicine" target="_blank">📲 Order via WhatsApp</a>
+</div>
+
+<div class="product-item">
+<img src="images/medicine.jpg" alt="Ulcer Healing Medicine">
+<h3>Ulcer Healing Herbal Medicine - Pack of 3</h3>
+<p>Price: R180 per pack</p>
+<a class="whatsapp" href="https://wa.me/27834724696?text=Hi,%20I%20want%20to%20order%201%20Pack%20of%203%20Ulcer%20Healing%20Medicine" target="_blank">📲 Order via WhatsApp</a>
+</div>
+
+</section>
+
+<section class="contact">
+<h2>Contact / Order via WhatsApp</h2>
+<p>Click below to chat with us and place your order instantly:</p>
+<a class="whatsapp" href="https://wa.me/27834724696" target="_blank">📲 Chat on WhatsApp</a>
+</section>
+
+<footer>
+<p>© 2026 Ulcer Healing Medicine</p>
+<p class="disclaimer">This product is a traditional herbal remedy. Consult a healthcare professional before use.</p>
+</footer>
+
+</body>
+</html>
